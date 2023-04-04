@@ -15,4 +15,15 @@
 <br />AWS RDS used to run Postgres
 (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)
  
+  
+ **Deployment** 
+ ---
+ 1. The image is stored on Docker hub (https://hub.docker.com/)
+ 2. The Google Cloud Run is used to run the container (https://cloud.google.com/run)
+
  
+ **Needs to be done** 
+ ---
+ 1. Restrict access to running GCR service to only authenticated users
+ 2. Enable JWT authentication for PostGraphile
+ 3. Enable VPC Egress for Cloud Run Service 
